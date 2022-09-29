@@ -1,0 +1,72 @@
+CSS
+ (Cascading Style Sheet)
+
+Css berperan dalam web development untuk _website _sangatlah penting. Tanpa adanya CSS, tampilan _website _akan membosankan atau bahkan membutuhkan waktu lama untuk _loading_.
+
+Bayangkan saja kamu hanya bisa bergantung pada HTML untuk membuat sebuah situs. Bukan cuma tampilan situs akan "hambar" tapi kamu juga butuh waktu lebih lama karena harus berulang kali mengetikkan perintah.
+
+Disini aku akan mejelaskan 3 style ing untuk css:
+
+pertama itu inline itu bisa langsung di dalam \<h1style =" background-color: pink;"\> haii i.m anisah\</h1\>
+
+kedua internal
+
+\<style\>
+
+H1{
+
+Border: black 1px solid;
+
+}
+
+\<style\>
+
+Ketiga eksternal
+
+Jadi disini aku mau tambahin file baru Namanya style.css yang dimana eksternal ini membutuhkan tempat tersendiri tapi kita perlu menyambungkan dari html ke css dengan cara
+
+\<link rel="stylesheet" href="style.css"\>
+
+Padding memberikan jarak dalam kotak
+
+Kalau hanya 1 bagian px saja itu berarti semua dalam bentruk kotak sama semua angka pxnya contoh 10 px jadi sisi atas, sisi kanan, sisi bawah dan sisi kiri semua sama.
+
+Trs bagai mana kalau ada 2 bagian px contoh 10 px 20px jadi sisi atas 10px, sisi kanan 20 px, sisi bawah 10 px dan sisi kiri 20 px.
+
+Kalau paddingnya ada 3 bagian px contoh 10px 20px 30px sama juga seperti arah jarum jam jadi atas 10px yang kanan 20px bawah 30 px dan yang kiri sama seperti kanan menjadi 20px
+
+Margin memberikan jarak diluar kotak
+
+Cara mengisi margin sama seperti padding dan bacanya juga sama seperti arah jarum jam
+
+Border adalah garis tepi dalam box model bisa dikasih warna dan ketebalannya
+
+Dan disini kita juga bisa mengetahui apa saja sih yang berpengaruh atau kurang dari mana nih yang udah kita kasih valuenya dengan cara browser hasil kodingan kita klik kanan pilih bagian paling bawah yaitu inspect tinggal klik dehh terus jangan lupa select an element disana kitab isa di kasih tau mana margin, padding dan kontennya.
+
+Display block adalah kontennya menguasai keseluruh layar dari ujung kanan dan ujung kiri
+
+Sedangkan display inline hanya mengikuti besar kecilnya konten, sedangkan display none itu hilang dan kalau visibility hidden hanya tidak terlihat atau ngumpet.
+
+Disini aku akan membuat sebuah design profile yang dimana pertama tam akita harus memiliki sebuah contoh design yang akan kita lakukan setelah itu kita harus mengalisah terlebih dahulu ada apa saja dan mengerjakan yang mana dulu.
+
+Disini ada design yang pertama bagian atas adalah navigasi dan paling pojok kiri adalah logo
+
+Dalam navigasi ada menu navigasinya . setelah kita Analisa kita sekarang bikin structure html nya seperti apa.
+
+Nanti kita akan menggunakan element naf nanti didalam element \<nav\> ada logo menggunakan henker \<a href=" " class="logo"\>nama logonya\</a\> dan di sebelah kanan akan disi \<ul\> \<li\> untuk ul(kelas . )nav.menu\>li\*3\>a setelah itu isi kontennya apa saja yang dibutuhkan dan structure pertama telah jadi.
+
+Sekarang kita styling tampilannya karena kurang bagus untuk \<nav\> kita kasih displaynya adalah flex; kemudian untuk ulnya kita hilangkan untuk bisa bersebelahan dengan nav nya \<ul\> kita kasih display flex; dan sekarang kita meriset styling defaultnya margin 0; padding 0; text-decoration none, dan list-style none;
+
+Nah sekarang kita style navbarnya pertama tama kita harus memisahkan logo dan isi navigasinya yaitu dengan cara bagaian nav{ kita kasih justify-content: space-between; sekarang udah terpisah nah selanjutnya kita kasih jarak nih untuk isi navigasinya karena telalu mempet, jadi untuk ul li{ margin 0 dan 10px dan untuk logonya kita kasih nav{ padding 10px dan 50px.
+
+Setelah itu kita kasih warna untuk teks bawannya adalah rgb (60, 96, 164); nah selanjutnya kita mengubah text nya yang pertama kita masuk ke goole font terus kita cari text apa yang di inginkan lalu kita pilih pilih yang mana yang mau diambil lalu kita klik kanan ada tulisan import setelah itu kita copy dan kita paste di vscode atas dan selanjutnya kita copy juga yang ada tulisan font family lalu paste di bagian selector (semua element) atau ada tanda bintang.
+
+Selanjutnya aku mau tebelkan text untuk ul li itu font-weight 600 dan untuk font-size 24 px dan kita tambahin padding 5px 10px. Nextnya aku mau ul li a{ kita kasih padding 8px 20px;
+
+Dan border-radius: 25 px; terus kita kasih hover dalam ul li nya yaitu ul li a:hover{ background color: rgb(60, 96, 164); dan color: #fff;
+
+Selanjutnya kita ke index.html yaitu kita membuat \<div class="home-text"\> \<h1\> hai..I'm \<span\>Anisah\>\</span\</h1\> selanjutnya \<a\>Hire Me\</a\> \</div\> setelah itu kita masukan gambar menggunakan \<div class ="home-img"\> \<img src="org.png alt=" " width="400"\>
+
+\</div\> jangan lupa kita bikin sematic html yang nama classnya home.
+
+Selanjutnya untuk .home{ kita kasih display: flex; terus align-items: center; justify-content: space-between; padding 10px 50px; margin-top: 100px selanjutnya bagian .home-text h1{ font-size: 60px; margin-bottom: 50px; next .home-text span{ color: rgb(58,72,98); dan yang terakhir .home-text a{ font-size: 24px; background-color: rgb(60, 96, 164); padding: 20px 40px; color: #fff; border-radius 50px;
