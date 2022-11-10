@@ -35,4 +35,4 @@ Cara setting up chrome dev tools
 2.	Untuk MAC = ctrl + shift + M
 Dan untuk melihat apakah ikon tersebut bisa responsive atau tidak bisa melihat gambar yang seperti tablet dan handphone.
 Boostrap
-Untuk boostrap kitab isa masukan tamplet tamplet yang sudah di sedaikan boostrap sangat memudahkan para d
+Untuk boostrap kitab isa masukan tamplet tamplet yang sudah di sedaikan boostrap sangat memudahkan para developer
